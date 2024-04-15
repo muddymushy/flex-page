@@ -1,10 +1,53 @@
-.body,
+body,
 .header,
-.container-1,
-.container-2,
-.content-1,
-.content-2 
-.content-3
-.footer{
+.container-1 {
     display: flex;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body,
+.header,
+.content-1 {
+    flex-direction: column;
+}
+
+.header {
+    gap: 10px;
+    background-color:#e3b9ff;
+    padding: 16px;
+    margin: 0;
+}
+
+.header-logo {
+    font-size: 18px;
+}
+
+.container-1 {
+    justify-content: space-between;
+}
+
+.container-2 {
+    align-items: center;
+}
+
+.content-right,
+.content-left {
+    width: 50%;
+}
+
+
+img {
+    height: 400px;
+    width: auto;
+}
+
+a {
+    color: black;
+}
+
+.links {
+    gap: 10px;
 }

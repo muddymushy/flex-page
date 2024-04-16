@@ -1,11 +1,17 @@
 body,
 .header,
-.container-1 {
+.container-1,
+.container-2,
+.content-1,
+.content-2 
+.content-3
+.footer {
     display: flex;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 body,

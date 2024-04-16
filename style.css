@@ -4,8 +4,9 @@ body,
 .container-1,
 .container-2,
 .content-1,
-.content-2 
-.content-3
+.content-2, 
+.content-3,
+.love-container,
 .footer {
     display: flex;
 }
@@ -48,6 +49,21 @@ body,
     width: 400px;
 }
 
+.content-1 {
+    background-color: #ffe9ec;
+    height: 300px;
+    justify-content: center;
+}
+
+.header-1 {
+    align-self: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.love-container {
+    justify-content: space-around;
+}
 
 img {
     height: 400px;

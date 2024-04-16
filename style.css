@@ -1,5 +1,6 @@
 body,
 .header,
+.links,
 .container-1,
 .container-2,
 .content-1,
@@ -29,6 +30,7 @@ body,
 
 .header-logo {
     font-size: 18px;
+    margin: 15px;
 }
 
 .container-1 {
@@ -37,11 +39,13 @@ body,
 
 .container-2 {
     align-items: center;
+    justify-content: center;
+    gap: 70px;
 }
 
 .content-right,
 .content-left {
-    width: 50%;
+    width: 400px;
 }
 
 
@@ -56,4 +60,10 @@ a {
 
 .links {
     gap: 10px;
+    margin: 15px;
+}
+
+button {
+    padding: 10px;
+    background-color: #fec5e5;
 }

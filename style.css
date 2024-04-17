@@ -8,6 +8,7 @@ body,
 .content-2, 
 .content-3,
 .love-container,
+.love-item,
 .footer {
     display: flex;
 }
@@ -20,7 +21,8 @@ body {
 body,
 .header,
 .content-1,
-.content-left {
+.content-left,
+.love-item {
     flex-direction: column;
 }
 
@@ -79,6 +81,10 @@ body,
     height: 400px;
 }
 
+.love-item {
+    align-items: center;
+}
+
 .content-2 {
     height: 300px;
 }
@@ -103,9 +109,13 @@ body,
     font-size: 18px;
     align-items: center;
     justify-content: space-around;
-    border: solid 2px;
+    margin: 30px 100px;
+}
+
+.content-3,
+.love-image {
+    border: solid 2px #dda0dd;
     border-radius: 10px;
-    margin: 15px;
 }
 
 .footer {
@@ -113,9 +123,12 @@ body,
     height: 50px;
 }
 
-img {
+.heaven {
     height: 400px;
-    width: auto;
+}
+
+.love-image {
+    width: 200px;
 }
 
 a {
